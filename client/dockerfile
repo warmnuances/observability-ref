@@ -1,7 +1,6 @@
-# Dockerfile
+FROM node:lts-alpine
 
-# base image
-FROM node:current
+ENV PORT 5000
 
 # create & set working directory
 RUN mkdir -p /usr/src
